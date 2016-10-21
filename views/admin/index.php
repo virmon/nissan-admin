@@ -24,7 +24,7 @@
       <img src="../../assets/images/nissan.jpg" id="img-nissan" />
     </div>
     <div class="col-md-10">
-      <h3>ADMIN PORTAL</h3>
+      <h3><b>ADMIN PORTAL</b></h3>
     </div>
   </div>
   <hr>
@@ -37,6 +37,7 @@
         <li><a href="#">SETTINGS</a></li>
         <li><a href="#">REPORTS</a></li>
       </ul>
+      <hr>
     </div>
     <div class="col-md-9">
       <table id="dealer-datatable" class="table table-stripped table-bordered table-hover"  cellspacing="0" width="100%">
@@ -50,21 +51,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="text-center">
             <td>1</td>
             <td>NISSAN MANTRADE</td>
             <td>info@myemail.com</td>
             <td>YES</td>
             <td>5</td>
           </tr>
-          <tr>
+          <tr class="text-center">
             <td>2</td>
             <td>NISSAN MANTRADE</td>
             <td>info@myemail.com</td>
             <td>YES</td>
             <td>5</td>
           </tr>
-          <tr>
+          <tr class="text-center">
             <td>3</td>
             <td>NISSAN MANTRADE</td>
             <td>info@myemail.com</td>
