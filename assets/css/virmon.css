@@ -9,3 +9,36 @@
   height: 20%;
   padding: 1em;
 }
+
+/*overwrite bootstrap css*/
+li.paginate_button.active{
+  background-color: white;
+  color: white;
+}
+
+li.paginate_button.active:hover{
+  background-color: white;
+  color: white;
+}
+
+li.paginate_button.active a{
+  background-color: red;
+  color: white;
+  border: 0;
+}
+
+li.paginate_button.active:hover a{
+  background-color: red;
+  color: white;
+  border: 0;
+}
+
+ul.nav.nav-pills.nav-stacked li a{
+  background-color: white;
+  color: black;
+}
+
+ul.nav.nav-pills.nav-stacked li.active a {
+  background-color: red;
+  color: white;
+}
