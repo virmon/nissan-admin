@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nissan Quick Serve</title>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css">
+
+  <!-- datatable -->
+  <link rel="stylesheet" type="text/css" href="../../assets/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/css/responsive.bootstrap.min.css">
+
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="../../assets/css/virmon.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="../../assets/images/nissan.jpg" id="img-nissan" />
+    </div>
+    <div class="col-md-10">
+      <h3 class="header"><b>ADMIN PORTAL</b></h3>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3">
+      <h4>NAVIGATION</h4><hr>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="index.php">DEALERS</a></li>
+        <li><a href="order-list.html">PREPAID PMS</a></li>
+        <li class="active"><a href="settings.html">SETTINGS</a></li>
+        <li><a href="reports.html">REPORTS</a></li>
+      </ul>
+      <hr>
+    </div>
+    <div class="col-md-9">
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#admin-settings">ADMIN</a></li>
+        <li><a href="#system-settings">SYSTEM</a></li>
+      </ul>
+      </br>
+
+      <div id="admin-settings">
+        <h4><b>ADMIN SETTINGS</b></h4>
+        <form class="form-horizontal" action="" method="post">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="name">FULL NAME:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">EMAIL ADDRESS:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="number">CONTACT NUMBER:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="number">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pass">PASSWORD:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="pass">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="repeat-pass">REPEAT PASSWORD:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="repeat-pass">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-nissan"><b>UPDATE</b> <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="system-settings">
+        <h4><b>SYSTEM SETTINGS</b></h4>
+        <form class="form-horizontal" action="" method="post">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="interval">TIME INTERVAL:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" placeholder="minutes" id="interval">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="voucher">VOUCHER IMAGE:</label>
+            <div class="col-sm-10">
+              <input type="file" class="form-control" id="voucher" accept="image/*">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-nissan"><b>UPDATE</b> <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="clearfix visible-lg"></div>
+  </div>
+</div>
+
+  <!-- jquery -->
+  <script src="../../assets/js/jquery.js"></script>
+
+  <!-- bootstrap -->
+  <script src="../../assets/js/bootstrap.min.js"></script>
+
+  <!-- datatable -->
+  <script src="../../assets/js/jquery.dataTables.min.js"></script>
+  <script src="../../assets/js/dataTables.bootstrap.min.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $("#dealer-datatable").dataTable({
+        aLengthMenu: [
+          [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]
+        ]
+      });
+    });
+  </script>
+</body>
+</html>
