@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Case</title>
+  <title>Nissan Quick Serve</title>
   <meta charset="utf-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
@@ -24,7 +24,7 @@
       <img src="../../assets/images/nissan.jpg" id="img-nissan" />
     </div>
     <div class="col-md-10">
-      <h3><b>ADMIN PORTAL</b></h3>
+      <h3 class="header"><b>ADMIN PORTAL</b></h3>
     </div>
   </div>
   <hr>
@@ -53,24 +53,24 @@
         <tbody>
           <tr class="text-center">
             <td>1</td>
-            <td>NISSAN MANTRADE</td>
+            <td><a href="">NISSAN MANTRADE</a></td>
             <td>info@myemail.com</td>
             <td>YES</td>
-            <td>5</td>
+            <td><a href="">5</a></td>
           </tr>
           <tr class="text-center">
             <td>2</td>
-            <td>NISSAN MANTRADE</td>
+            <td><a href="">NISSAN MANTRADE</a></td>
             <td>info@myemail.com</td>
             <td>YES</td>
-            <td>5</td>
+            <td><a href="">5</a></td>
           </tr>
           <tr class="text-center">
             <td>3</td>
-            <td>NISSAN MANTRADE</td>
+            <td><a href="">NISSAN MANTRADE</a></td>
             <td>info@myemail.com</td>
             <td>YES</td>
-            <td>5</td>
+            <td><a href="">5</a></td>
           </tr>
         </tbody>
       </table>
